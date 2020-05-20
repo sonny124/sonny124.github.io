@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'fff_english_premier_leagueRg';
+    src: url('font_2/fff_english_premier_league-webfont.woff2') format('woff2'),
+         url('font_2/fff_english_premier_league-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'premierleague';  
+    background-color: #000000ec;
+}
+
+h1 {
+    color:rgb(197, 196, 196);
+    padding: 10px;
+}
+
+h2 {
+    color:rgb(197, 196, 196);
+}
+
+img.header {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+    color:rgb(197, 196, 196);
+}
+
+/* Navigation Bar */
+
+#nav {
+    text-align: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(209, 183, 36);
+}
+  
+#nav li {
+    float: left;
+    border-right: 5px solid rgba(0, 0, 0, 0.925);
+}
+
+#nav li a, .dropbtn {
+    display: block;
+    color: rgba(0, 0, 0, 0.925);
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(141, 124, 26, 0.747);
+}
+
+#nav li.dropdown {
+    /* position: relative; */
+    display: inline-block;
+}
+  
+#nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d1b724;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#nav .dropdown-content a {
+    color: rgba(0, 0, 0, 0.925);
+    padding: 15px 25px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#nav .dropdown-content a:hover {
+    background-color: rgba(141, 124, 26, 0.747);
+}
+
+#nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Rosters */
+
+.roster {
+    padding: 10px;
+}
+
+.roster h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.roster caption {
+    border:5px solid #000000ec;
+    padding:10px;
+    font-size: 150%;
+    text-align: left;
+}
+
+.roster table {
+    width:100%;
+    border:5px solid #000000ec;
+    border-collapse:collapse;
+    padding:5px;
+}
+
+.roster th {
+    border:5px solid #000000ec;
+    padding:5px;
+}
+
+.roster td {
+    border:5px solid #000000ec;
+    text-align:center;
+    padding:5px;
+}
+
+.roster img {
+    width: auto;
+    height: 200px;
+    padding: 5px;
+}
+
+/* Alcoholics Anonymous */
+
+.alcs caption {
+    background:rgb(219, 219, 219);
+}
+
+.alcs th {
+    background:rgb(219, 219, 219);
+}
+
+.alcs td {
+    background:rgb(219, 219, 219);
+}
+
+/* Niggas United */
+
+.niggas caption {
+    background:rgb(121, 121, 121);
+}
+
+.niggas th {
+    background:rgb(121, 121, 121);
+}
+
+.niggas td {
+    background:rgb(121, 121, 121);
+}
+
+/* Sendai Samurais */
+
+.sendai caption {
+    background:rgb(245, 89, 89);
+}
+
+.sendai th {
+    background:rgb(245, 89, 89);
+}
+
+.sendai td {
+    background:rgb(245, 89, 89);
+}
+
+/* The Sheepshaggers */
+
+.sheep caption {
+    background:rgb(189, 133, 253);
+}
+
+.sheep th {
+    background:rgb(189, 133, 253);
+}
+
+.sheep td {
+    background:rgb(189, 133, 253);
+}
+
+/* Melbourne Emos */
+
+.emos caption {
+    background:rgb(158, 158, 158);
+}
+
+.emos th {
+    background:rgb(158, 158, 158);
+}
+
+.emos td {
+    background:rgb(158, 158, 158);
+}
+
+/* Douglas County SC */
+
+.doug caption {
+    background:rgb(156, 250, 147);
+}   
+
+.doug th {
+    background:rgb(156, 250, 147);
+}
+
+.doug td {
+    background:rgb(156, 250, 147);
+}   
